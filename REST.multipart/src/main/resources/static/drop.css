@@ -1,0 +1,12 @@
+.highlight{
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+    background-color: rgba(199, 218, 201, 0.158);
+}
+.secret{
+    visibility: hidden;
+    width: 0px;
+}

@@ -1,0 +1,61 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ChordPrimary",
+            "request": "launch",
+            "mainClass": "DHT.multipart.ChordNode",
+            "projectName": "DHT",
+            "args": "server"
+        },
+        {
+            "type": "java",
+            "name": "Chord1",
+            "request": "launch",
+            "mainClass": "DHT.multipart.ChordNode",
+            "projectName": "DHT",
+            "args": "client1"
+        },
+        {
+            "type": "java",
+            "name": "Chord2",
+            "request": "launch",
+            "mainClass": "DHT.multipart.ChordNode",
+            "projectName": "DHT",
+            "args": "client2"
+        },
+        {
+            "type": "java",
+            "name": "Chord3",
+            "request": "launch",
+            "mainClass": "DHT.multipart.ChordNode",
+            "projectName": "DHT",
+            "args": "client3"
+        },
+        {
+            "type": "java",
+            "name": "ChordTest",
+            "request": "launch",
+            "mainClass": "DHT.multipart.ChordNode",
+            "projectName": "DHT",
+            "args": "tester 1"
+        },
+    ],
+    "compounds": [
+        {
+            "name": "TestCompound",
+            "configurations": ["Chord1", "Chord2", "Chord3"]
+        }
+    ]
+
+}

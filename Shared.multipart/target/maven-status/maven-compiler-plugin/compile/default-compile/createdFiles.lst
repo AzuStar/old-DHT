@@ -1,0 +1,7 @@
+Shared/multipart/IChordNode.class
+Shared/multipart/Task.class
+Shared/multipart/Node.class
+Shared/multipart/PassThroughLock.class
+Shared/multipart/BinaryFileChunk.class
+Shared/multipart/Utils.class
+Shared/multipart/BinaryFileMeta.class
